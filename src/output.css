@@ -578,10 +578,6 @@ video {
   left: 970px;
 }
 
-.left-full {
-  left: 100%;
-}
-
 .-m-7 {
   margin: -1.75rem;
 }
@@ -823,6 +819,10 @@ video {
   max-width: 1200px;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1039,9 +1039,19 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-3 {
@@ -1181,4 +1191,10 @@ video {
 .hover\:bg-blue-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
 }
